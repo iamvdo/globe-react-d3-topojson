@@ -1,4 +1,8 @@
 module.exports = {
+  paths: {
+    public: './'
+  },
+
   files: {
     javascripts: {
       joinTo: {
@@ -7,6 +11,13 @@ module.exports = {
       }
     },
     stylesheets: {joinTo: 'app.css'}
+  },
+
+  npm: {
+    globals: {
+      d3: 'd3',
+      topojson: 'topojson'
+    }
   },
 
   plugins: {

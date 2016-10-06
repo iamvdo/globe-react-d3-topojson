@@ -1,5 +1,5 @@
 {
-  "name": "your-app",
+  "name": "globe-react-d3-topojson",
   "description": "Description",
   "author": "Your Name",
   "version": "0.0.1",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "build": "brunch build --production"
   },
   "dependencies": {
     "react": "~15.3.0",
